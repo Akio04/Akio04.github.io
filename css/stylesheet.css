@@ -18,14 +18,15 @@ a {
 }
 
 header {
-  backgroud-color: rgba(32, 32, 32, 0.9);
-}
-
-header h1 {
   color: #FFFFFF;
+  background-color: rgba(32, 32, 32, 0.9);
 }
 
-.header-list li {
+header ul {
+  list-style-type: none;
+}
+
+header li {
   display: inline;
 }
 
@@ -34,5 +35,5 @@ header h1 {
 }
 
 footer {
-  backgroud-color: #323232;
+  background-color: #323232;
 }
