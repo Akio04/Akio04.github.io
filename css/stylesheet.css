@@ -34,6 +34,10 @@ header {
   float: left;
 }
 
-.header02 {
+.header02 ul {
   list-style-type: none;
+}
+
+.header02 li {
+  display: inline-block;
 }
