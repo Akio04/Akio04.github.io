@@ -18,9 +18,11 @@ a {
 }
 
 header {
-  font-color: white;
-  font-size: 24px;
-  backgroud-color: #323232;
+  backgroud-color: rgba(32, 32, 32, 0.9);
+}
+
+header h1 {
+  color: #FFFFFF;
 }
 
 .header-list li {
