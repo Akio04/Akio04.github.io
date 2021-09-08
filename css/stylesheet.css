@@ -18,15 +18,18 @@ a {
 }
 
 header {
-  color: #FFFFFF;
   background-color: rgba(32, 32, 32, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 32;
 }
 
-header ul {
+.header01 ul {
   list-style-type: none;
 }
 
-header li {
+.header01 li {
+  color: white;
   display: inline;
 }
 
