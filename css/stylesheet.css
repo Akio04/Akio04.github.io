@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+}
+
 .container {
   width: 100%;
   padding: 0 16px;
@@ -26,19 +30,6 @@ header {
   z-index: 32;
 }
 
-.header01 ul {
+nav ul {
   list-style-type: none;
-}
-
-.header01 li {
-  color: white;
-  display: inline;
-}
-
-.top-wrapper {
-
-}
-
-footer {
-  background-color: #323232;
 }
