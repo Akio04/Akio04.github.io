@@ -9,11 +9,17 @@ body {
 }
 
 .container {
-    width: 1080px;
+  width: 100%;
+  padding: 0 16px;
+  margin 0 auto;
 }
 
 header {
+  
+}
 
+header li {
+  display: inline;
 }
 
 .top-wrapper {
