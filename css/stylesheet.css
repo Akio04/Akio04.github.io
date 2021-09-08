@@ -11,6 +11,19 @@ a, p, h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  direction: ltr;
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
@@ -33,24 +46,32 @@ header {
   float: left;
 }
 
-.header01 h1, .header01 a, .header99 a, .contact-btn {
+.header01 h1, .header01 a, .header99 a, .header-btn {
   color: #e0e0e0;
 }
 
-.header99 ul {
-  float: right;
-  list-style: none;
+.fa {
+  color: #e0e0e0;
 }
 
-.header99 li {
+.header99 {
+  float: right;
   display: inline-block;
 }
 
-.contact-btn {
+.header-link-item {
+  display: inline-block;
+  text-align: center;
+  width: 160px;
+  height: 60px;
   font-size: 18px;
-  background-color: inherit;
-  margin: 8px;
-  border: none;
+  line-height: 0px;
+  padding-top: 9px;
+  border-radius: 8px;
+}
+
+.header-link-item:hover {
+  background-color: rgba(128, 128, 128, 0.8);
 }
 
 .top-wrapper {
