@@ -18,7 +18,9 @@ a {
 }
 
 header {
-  
+  font-color: white;
+  font-size: 24px;
+  backgroud-color: #323232;
 }
 
 .header-list li {
@@ -30,5 +32,5 @@ header {
 }
 
 footer {
-
+  backgroud-color: #323232;
 }
