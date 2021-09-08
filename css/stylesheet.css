@@ -4,6 +4,8 @@
 
 body {
   background-color: #080808;
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
 }
 
 .container {
